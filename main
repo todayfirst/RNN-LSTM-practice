@@ -6,6 +6,8 @@ Created on Mon Feb 24 14:10:05 2020
 @author: ebrain
 """
 
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 import pandas as pd
 import numpy as np
